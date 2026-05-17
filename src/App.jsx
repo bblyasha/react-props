@@ -8,14 +8,7 @@ import MyComp from "./MyComp";
 function App() {
   return (
     <>
-    <MyComp
-      name="Natalya"
-      age={23}
-      isActive={true}
-      user={{ email: "natalya@gmail.com" }}
-      sayHello={() => alert("Hello")}
-      hobbies={["React", "JS", "Redux"]}
-    />
+    <MyComp/>
     </>
   )
 }
