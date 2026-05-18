@@ -3,12 +3,13 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "./assets/vite.svg";
 import heroImg from "./assets/hero.png";
 import "./App.css";
-import MyComp from "./MyComp";
+import ParentComponent from "./ParentComponent";
+import ChildComponent from "./ChildComponent";
 
 function App() {
   return (
     <>
-    <MyComp/>
+    <ParentComponent />
     </>
   )
 }
